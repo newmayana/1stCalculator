@@ -13,15 +13,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    background: linear-gradient(45deg, #cfd265, #dd9e0c);
 }
 
 .calculator{
-    border: 1px solid #717377;
+    border: 1px solid #d8dccc;
     padding: 20px;
     border-radius: 16px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    box-shadow: 0px 3px 15px rgba(177, 182, 50, 0.5);
 
 }
 
@@ -43,7 +43,7 @@ input::placeholder{
 }
 
 button{
-    border: none;
+    border: #000;
     width: 60px;
     height: 60px;
     margin: 10px;
@@ -51,14 +51,14 @@ button{
     background: transparent;
     color: #ffffff;
     font-size: 20px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: 8px 8px 77px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
 .equalBtn{
-    background-color: #fb7c14;
+    background-color: #474746;
 }
 
 .operator{
-    color: #6dee0a;
+    color: #3b3e38;
 }
